@@ -3,7 +3,10 @@ const { caesarCipher } = require("./caesarCipher")
 
 describe("Testing CaesarCipher functionality", () => {
 
-  let key = 3
+  const key = 3
+
+  // beforeEach(() => {
+  // });
 
   test("CaesarCipher should be defined", () => {
     expect(caesarCipher).toBeDefined();
